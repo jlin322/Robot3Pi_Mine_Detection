@@ -39,6 +39,7 @@ int mine_found_or_not = 0;
 char mchar[2];
 int distance=0;
 int second = 0;
+
 //-------------------------------------------Basic Voids-------------------------------------------//
 void brake(){
   PORTD |= (1<<LEFTMOTOR5)|(1<<LEFTMOTOR6)|(1<<RIGHTMOTOR3);
